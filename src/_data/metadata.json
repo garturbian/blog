@@ -1,0 +1,13 @@
+{
+  "title": "The Garturian Blog",
+  "url": "https://example.com",
+  "description": "The Garturioan Bolg is about things that interest me.",
+  "author": {
+    "name": "Garturian",
+    "email": "garturian@gmail.com"
+  },
+  "social": {
+    "twitter": "https://twitter.com/garturian",
+    "github": "https://github.com/garturian"
+  }
+}

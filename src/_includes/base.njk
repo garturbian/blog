@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="/assets/styles.css?v=4">
+    <link rel="icon" href="/assets/images/logo.jpg" type="image/jpeg">
+</head>
+<body id="custom-styles">
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                <li><a href="/blog" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="/english" {% if page.url == "/english/" %}class="active"{% endif %}>English</a></li>
+                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="/assets/images/logo.jpg" alt="The Garturian Logo" class="footer-logo">
+            <div class="copyright">
+            © {{ helpers.currentYear() }} The Garturian
+            
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
