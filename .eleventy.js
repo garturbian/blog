@@ -9,6 +9,12 @@ const helpers = {
 };
 
 module.exports = function(eleventyConfig) {
+  return {
+    pathPrefix: "/gart/", // Ensures all paths are adjusted for GitHub Pages
+  };
+};
+
+module.exports = function(eleventyConfig) {
   // Markdown configuration
   let markdownLibrary = markdownIt({
     html: true,
