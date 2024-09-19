@@ -3,6 +3,7 @@ layout: base.njk
 title: Finding Purpose in Life
 date: 2024-09-17
 ---
+<img src="/assets/images/find-purpose.jpg" alt="A battle-worn Spartan warrior, with a look of determination gazes into the distance that evokes a sense of purpose and the weight of his personal duty." width="400" class="centered"><br>
 
 # The Garturian Guide to Finding Purpose  
 

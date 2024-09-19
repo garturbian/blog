@@ -4,7 +4,7 @@ title: "Become a Master of Relationships"
 date: 2024-09-10
 ---
 
-   <img src="/assets/images/a-loving-couple2.jpg" alt="Description of image" width="400" class="centered">
+   <img src="/assets/images/a-loving-couple2.jpg" alt="a young couple are lovingly gazing into each others eyes." width="400" class="centered">
 
   <center><audio controls><source src="https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/22/82/1809807778688222-1809807778709954-1809807787219103.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20240910%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240910T112016Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=518400&amp;X-Amz-Signature=6bb18d2ae3c29c126573ed46c7d008b20dd61e422ddfd0ae55520cf20b6ca1ac"/>" type="audio/mpeg">Your browser does not support the audio element.</audio></br></br></center>
 

@@ -9,12 +9,6 @@ const helpers = {
 };
 
 module.exports = function(eleventyConfig) {
-  return {
-    pathPrefix: "/gart/", // Ensures all paths are adjusted for GitHub Pages
-  };
-};
-
-module.exports = function(eleventyConfig) {
   // Markdown configuration
   let markdownLibrary = markdownIt({
     html: true,
@@ -61,9 +55,6 @@ module.exports = function(eleventyConfig) {
     console.log('English posts:', collections.englishPosts?.length);
   });
 
-  // Existing configurations...
-  // ... (keep all your existing configurations)
-
   // Add truncate filter if not already present
   eleventyConfig.addFilter("truncate", function(text, length) {
     if (text.length <= length) return text;
@@ -73,16 +64,18 @@ module.exports = function(eleventyConfig) {
   // Add this line to process markdown within Nunjucks templates
   eleventyConfig.addFilter("markdown", (content) => markdownLibrary.render(content));
 
- 
-console.log("Current working directory:", process.cwd());
-console.log("Input directory:", path.resolve("src"));
-console.log("Assets directory:", path.resolve("src/assets"));
-console.log("Image file exists:", require('fs').existsSync(path.resolve("src/assets/images/shadow-self.jpg")));
-   return {
+  console.log("Current working directory:", process.cwd());
+  console.log("Input directory:", path.resolve("src"));
+  console.log("Assets directory:", path.resolve("src/assets"));
+  console.log("Image file exists:", require('fs').existsSync(path.resolve("src/assets/images/shadow-self.jpg")));
+
+  return {
+    pathPrefix: "/gart/", // Adjust for GitHub Pages subdirectory
     dir: {
       input: "src",
       output: "public",
-      includes: "_includes"
+      includes: "_includes",
+      data: "_data"
     },
     templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",

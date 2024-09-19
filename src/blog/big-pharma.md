@@ -3,7 +3,8 @@ layout: base.njk
 title: "The Dark Side of Big Pharma"
 date: 2024-09-15
 ---
-<img src="/assets/images/big-pharma2.jpg" alt="Description of image" width="400" class="centered"><br>
+
+<img src="/assets/images/big-pharma2.jpg" alt="Three people seated at a table or desk, with a large white banner behind them that reads 'PROFITS OVER HEALTH' in bold black letters. The central figure is a man in glasses wearing a suit and tie, flanked by two women also in business attire. The setting seems to be an office or conference room, with overhead lighting and lamps visible. The scene has a serious, somewhat ominous tone, likely critiquing prioritization of financial gain over public health concerns." width="400" class="centered"><br>
 
 <center><audio controls><source src="https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/96/12/1810247049281296-1810247049304289-1810247066748846.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20240915%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240915T074230Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=518400&amp;X-Amz-Signature=e00189e02c6a1584b390c76c0c23867fdfed576a3d7eef7908e0ed5cfa10c75f" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 

@@ -3,8 +3,9 @@ layout: base.njk
 title: Mastering the Art of Motives
 date: 2024-09-17
 ---
+<img src="/assets/images/motives.jpg" alt="A large sculptural head composed of letters or symbols, juxtaposed with a bald man in a business suit gesturing towards it. This surreal scene, set in a bare space with dramatic lighting, appears to symbolize the interaction between human motivation and actions." width="400" class="centered"><br>
 
-<center><audio controls><source src="https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/63/78/1810418253047863-1810418253070739-1810418268187726.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20240917%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240917T050334Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=518400&amp;X-Amz-Signature=e1ce13839c2fec2952ee84f1487d1d623900b922d6fe5d4b8dd5637a36d5c719" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br></br>  
+<center><audio controls><source src="https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/63/78/1810418253047863-1810418253070739-1810418268187726.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20240917%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240917T050334Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=518400&amp;X-Amz-Signature=e1ce13839c2fec2952ee84f1487d1d623900b922d6fe5d4b8dd5637a36d5c719" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br> 
 
 # Mastering the Art of Motives  
 

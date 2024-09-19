@@ -3,7 +3,7 @@ layout: base.njk
 title: wolf-wilder
 date: 2014-09-16
 ---
-<center><img src="/assets/images/wolf-wilder.jpg" alt="Description of image" width="360" class="centered"><br> </center>
+<center><img src="/assets/images/wolf-wilder.jpg"Three wolves huddled together in the snow; one white, one gray and one black." width="360" class="centered"><br> </center>
 
 <center><audio controls><source src="https://s3.eu-central-1.wasabisys.com/audio.com.audio/transcoding/79/46/1810358051684679-1810358051708414-1810358060618376.mp3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=W7IA3NSYSOQIKLY9DEVC%2F20240916%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240916T130636Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=518400&amp;X-Amz-Signature=43c80920638c3c3b6207b80bb5ae0edf584a93f866e1b440ba3ae5faaf0fbe13" type="audio/mpeg">Your browser does not support the audio element.</audio></center><br> 
 

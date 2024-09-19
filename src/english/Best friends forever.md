@@ -3,7 +3,7 @@ layout: base.njk
 title: Best friends forever
 date: 2024-09-17
 ---  
-<center><img src="/assets/images/best-friends.jpg" alt="Description of image" width="360" class="centered"><br> </center>
+<center><img src="/assets/images/best-friends.jpg" alt="Two teenage girls sitting close together smiling happily" width="360" class="centered"><br> </center>
 
 <blockquote>
 
