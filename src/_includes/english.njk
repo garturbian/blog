@@ -1,0 +1,10 @@
+---
+layout: base
+permalink: /english/
+---
+<h1>English Posts</h1>
+<ul>
+{% for post in collections.englishPosts %}
+  <li><a href="{{ post.url | assetUrl }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+main {
+    margin-bottom: 2rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+time {
+    color: #666;
+    font-size: 0.9rem;
+}

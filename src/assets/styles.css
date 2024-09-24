@@ -1,0 +1,179 @@
+/* Reset and override Pico CSS styles */
+#custom-styles .main-nav,
+#custom-styles .main-nav ul,
+#custom-styles .main-nav li,
+#custom-styles .main-nav a {
+    all: unset;
+    box-sizing: border-box;
+}
+
+/* Reset some default margins and paddings */
+#custom-styles body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header and navigation styles */
+#custom-styles header {
+    margin-bottom: 1rem !important;
+    padding: 0 !important;
+}
+
+#custom-styles .main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+#custom-styles .main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensure the ul takes full width */
+}
+
+#custom-styles .main-nav li {
+    margin: 0.25rem;
+}
+
+#custom-styles .main-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 40px;
+    background-color: #0077be;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+#custom-styles .main-nav a:hover,
+#custom-styles .main-nav a:focus,
+#custom-styles .main-nav a.active {
+    background-color: #005f9e;
+    outline: none;
+}
+
+#custom-styles .main-nav a.active {
+    border-color: #ffffff;
+}
+
+/* Main content area styles */
+#custom-styles main {
+    max-width: 650px; /* Reduced from 800px for better readability */
+    margin: 0 auto;
+    padding: 0 1rem !important;
+}
+
+#custom-styles main > *:first-child {
+    margin-top: 0 !important;
+}
+
+#custom-styles main h1 {
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 400;
+}
+
+#custom-styles main h2,
+#custom-styles main h3 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.25rem !important;
+    font-weight: 400;
+}
+
+#custom-styles main p {
+    margin-bottom: 0.5rem !important;
+}
+
+/* Center images */
+#custom-styles main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reduce space between title and image */
+#custom-styles main h1 + img,
+#custom-styles main h1 + p img {
+    margin-top: 0.5rem !important;
+}
+
+#custom-styles main blockquote {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;;
+    padding: 5px 20px 0 20px !important; /* Top 0, Right 20px, Bottom 0, Left 20px */
+}
+
+/* Footer styles */
+#custom-styles footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+/* Media query for screens 400px and below */
+@media screen and (max-width: 400px) {
+    #custom-styles .main-nav {
+        justify-content: flex-start;
+        padding-left: 1rem; /* Add left padding */
+    }
+
+    #custom-styles .main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #custom-styles .main-nav li {
+        margin: 0.25rem 0;
+    }
+
+    #custom-styles .main-nav a {
+        width: 82px; /* Maintain 82px width */
+    }
+}
+
+/* Ensure horizontal layout between 401px and 600px */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    #custom-styles .main-nav ul {
+        flex-direction: row;
+    }
+}
+
+/* Override Pico CSS article padding */
+#custom-styles article {
+    padding-top: 0 !important;
+}
+
+/* Mixed-language content styles */
+#custom-styles .en-text {
+    font-size: 18px;
+}
+
+#custom-styles .zh-text,
+#custom-styles [lang="zh-TW"] {
+    font-size: 14px;
+}
+
+/* If you want to apply these styles only to specific pages or elements, 
+   you can use a more specific selector, like this: */
+#custom-styles .mixed-language .en-text {
+    font-size: 18px;
+}
+
+#custom-styles .mixed-language .zh-text,
+#custom-styles .mixed-language [lang="zh-TW"] {
+    font-size: 14px;
+}

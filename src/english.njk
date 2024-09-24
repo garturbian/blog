@@ -1,0 +1,15 @@
+---
+layout: base
+permalink: /english/
+---
+<h1>English Posts</h1>
+<p>Total posts: {{ collections.englishPosts.length }}</p>
+<ul>
+{% if collections.englishPosts.length > 0 %}
+  {% for post in collections.englishPosts %}
+    <li><a href="{{ post.url | assetUrl }}">{{ post.data.title }}</a></li>
+  {% endfor %}
+{% else %}
+  <li>No posts found</li>
+{% endif %}
+</ul>
