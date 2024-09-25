@@ -23,20 +23,6 @@ module.exports = function(eleventyConfig) {
     linkify: true
   }).use(markdownItAttrs);
 
-  // Custom rule for audio elements
-  markdownLibrary.renderer.rules.audio = (tokens, idx, options, env, self) => {
-    const token = tokens[idx];
-    const srcIndex = token.attrIndex('src');
-
-    if (srcIndex !== -1) {
-      const src = token.attrs[srcIndex][1];
-      const newSrc = isProd ? `${baseUrl}${src}` : src;
-      token.attrs[srcIndex][1] = newSrc;  // Update the src attribute
-    }
-
-    return self.renderToken(tokens, idx, options);  // Render the updated audio tag
-  };
-
   // Set the Markdown library
   eleventyConfig.setLibrary("md", markdownLibrary);
 
@@ -46,14 +32,20 @@ module.exports = function(eleventyConfig) {
 
   // Define a paired markdown shortcode
   eleventyConfig.addPairedShortcode("markdown", (content) => {
-    return markdownLibrary.render(content);
+    // Render the Markdown content first
+    const renderedContent = markdownLibrary.render(content);
+
+    // Update audio paths after rendering
+    return renderedContent.replace(/<audio[^>]*src="([^"]*)"/g, (match, src) => {
+      const newSrc = isProd ? `${baseUrl}${src}` : src;
+      return match.replace(src, newSrc);  // Update the src attribute
+    });
   });
 
   // Add useful filters
   eleventyConfig.addFilter("limit", (arr, limit) => arr.slice(0, limit));
   eleventyConfig.addFilter("date", (date, format) => DateTime.fromJSDate(date).toFormat(format));
   eleventyConfig.addFilter("truncate", (text, length) => text.length <= length ? text : text.slice(0, length) + "...");
-  eleventyConfig.addFilter("markdown", (content) => markdownLibrary.render(content));
 
   // Collections
   eleventyConfig.addCollection("post", (collectionApi) => collectionApi.getFilteredByGlob("src/blog/*.md"));
