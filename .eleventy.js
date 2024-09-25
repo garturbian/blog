@@ -1,11 +1,11 @@
 const { DateTime } = require("luxon");
 const path = require('path');
 const markdownIt = require("markdown-it");
+const markdownItAttrs = require("markdown-it-attrs");
 
 module.exports = function(eleventyConfig) {
   const isProd = process.env.NODE_ENV === "production";
-  //const baseUrl = isProd ? '/gart' : '';  // No trailing slash in baseUrl
-  const baseUrl = isProd ? '/blog' : '/';  // Update from '/gart/' to '/blog/'
+  const baseUrl = isProd ? '/blog' : '/';  // Set baseUrl based on environment
 
   // Define a currentYear shortcode
   eleventyConfig.addShortcode("currentYear", () => new Date().getFullYear());
@@ -16,19 +16,33 @@ module.exports = function(eleventyConfig) {
     return isProd ? `${baseUrl}${url.startsWith('/') ? url : '/' + url}` : url;
   });
 
-  // Markdown configuration
+  // Markdown configuration with markdown-it and markdown-it-attrs
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,
     linkify: true
-  });
+  }).use(markdownItAttrs);
+
+  // Custom rule for audio elements
+  markdownLibrary.renderer.rules.audio = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    const srcIndex = token.attrIndex('src');
+
+    if (srcIndex !== -1) {
+      const src = token.attrs[srcIndex][1];
+      const newSrc = isProd ? `${baseUrl}${src}` : src;
+      token.attrs[srcIndex][1] = newSrc;  // Update the src attribute
+    }
+
+    return self.renderToken(tokens, idx, options);  // Render the updated audio tag
+  };
+
+  // Set the Markdown library
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Passthrough file copy for assets
   eleventyConfig.addPassthroughCopy("src/assets");
   console.log("Assets passthrough copy configured");
-
-  // Set the Markdown library
-  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Define a paired markdown shortcode
   eleventyConfig.addPairedShortcode("markdown", (content) => {
@@ -52,12 +66,12 @@ module.exports = function(eleventyConfig) {
   console.log("Input directory:", path.resolve("src"));
   console.log("Assets directory:", path.resolve("src/assets"));
   console.log("Output directory:", path.resolve("public"));
-  
+
   return {
     pathPrefix: baseUrl,  // Let Eleventy handle the path prefix
     dir: {
       input: "src",
-      output: "public",
+      output: "docs",  // Output to the 'docs' folder
       includes: "_includes",
       data: "_data"
     },
