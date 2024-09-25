@@ -6,6 +6,5 @@ permalink: /blog/
 <ul>
 {% for post in collections.post | reverse %}
   <li><a href="{{ post.url | assetUrl }}">{{ post.data.title }}</a></li>
-
 {% endfor %}
 </ul>

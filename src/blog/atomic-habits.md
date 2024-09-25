@@ -3,9 +3,15 @@ layout: base.njk
 title: Atomic Habits by James Clear
 date: 2024-09-16
 ---
-<center><img src="/assets/images/atomic-habits.jpg" alt="A Spartan warrior in full battle armor. The warrior is wearing a helmet with a distinctive red crest, and his face is partially visible, showing a determined expression. He's also wearing shoulder armor, and there's a red cape or cloak visible. The background is dark and ominous, with what appears to be embers or sparks floating in the air, suggesting a battlefield atmosphere. At the bottom of the image, overlaid text reads "Atomic Habits" in large white letters." width="360" class="centered"><br> </center>
 
-<center><audio controls><source src="/assets/audio/spartan-habits.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></br></br></center>
+<center><img src=" {{ '/assets/images/atomic-habits.jpg' | assetUrl }} " alt="A Spartan warrior in full battle armor. The warrior is wearing a helmet with a distinctive red crest, and his face is partially visible, showing a determined expression. He's also wearing shoulder armor, and there's a red cape or cloak visible. The background is dark and ominous, with what appears to be embers or sparks floating in the air, suggesting a battlefield atmosphere. At the bottom of the image, overlaid text reads "Atomic Habits" in large white letters." width="360" class="centered"><br> </center>
+
+<center>
+<audio controls><source src="{{ '/assets/audio/spartan-habits.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
+               
+
+</br></br></center>
 
 ## Building Spartan Discipline with Small Habits
 

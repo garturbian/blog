@@ -3,9 +3,9 @@ layout: base.njk
 title: Mastering the Art of Motives
 date: 2024-09-17
 ---
-<img src="/assets/images/motives.jpg" alt="A large sculptural head composed of letters or symbols, juxtaposed with a bald man in a business suit gesturing towards it. This surreal scene, set in a bare space with dramatic lighting, appears to symbolize the interaction between human motivation and actions." width="400" class="centered"><br>
+<img src="{{ '/assets/images/motives.jpg' | assetUrl }}" alt="A large sculptural head composed of letters or symbols, juxtaposed with a bald man in a business suit gesturing towards it. This surreal scene, set in a bare space with dramatic lighting, appears to symbolize the interaction between human motivation and actions." width="400" class="centered"><br>
 
-<center><audio controls><source src="/assets/audio/art-motives.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br> 
+<center><audio controls><source src="{{ '/assets/audio/art-motives.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br> 
 
 # Mastering the Art of Motives  
 

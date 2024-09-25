@@ -5,13 +5,15 @@ description: 'The 4-7-8 breathing technique is a simple and effective way to red
 date: 2023-02-23
 ---
 
-<img src="{{ '/assets/images/breathing.jpg' | url }}" alt="image of an attractive young woman sitting outside in the hatha yoga lotus posture" width="400" class="centered">
+<img src="{{ '/assets/images/breathing.jpg' | assetUrl }}" alt="image of an attractive young woman sitting outside in the hatha yoga lotus posture" width="400" class="centered">
 </br>
 <center>
 <audio controls>
-<source src="/assets/audio/4-7-8.mp3" type="audio/mpeg">
+<source src="{{ '/assets/audio/4-7-8.mp3' | assetUrl }}" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio></center><br>
+</audio>
+</center>
+<br>
 > The 4-7-8 breathing technique is a simple and effective way to reduce stress and improve sleep. The technique involves inhaling through the nose for a count of four, holding the breath for a count of seven, and exhaling through the mouth for a count of eight. This simple breathing pattern has numerous benefits and can help to improve both physical and mental health.
 
 ## Reducing Stress and Anxiety

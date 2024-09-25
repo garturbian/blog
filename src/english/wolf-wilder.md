@@ -3,7 +3,7 @@ layout: base.njk
 title: wolf-wilder
 date: 2014-09-16
 ---
-<center><img src="/assets/images/wolf-wilder.jpg"Three wolves huddled together in the snow; one white, one gray and one black." width="360" class="centered"><br> </center>
+<center><img src="{{ '/assets/images/wolf-wilder.jpg' | assetUrl }}"Three wolves huddled together in the snow; one white, one gray and one black." width="360" class="centered"><br> </center>
 
 
 # The Wolf Wilder  
@@ -191,7 +191,7 @@ Doug doesn't know where his wife is.
 
 </blockquote>
 <br>
-<center><audio controls><source src="/assets/audio/wolf-wilder.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br></br>  
+<center><audio controls><source src="{{ '/assets/audio/wolf-wilder.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br></br>  
 
 ## The Wolf Wilder
 

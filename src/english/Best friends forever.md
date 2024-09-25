@@ -3,18 +3,18 @@ layout: base.njk
 title: Best friends forever
 date: 2024-09-17
 ---  
-<center><img src="/assets/images/best-friends.jpg" alt="Two teenage girls sitting close together smiling happily" width="360" class="centered"><br> </center>
+<center><img src="{{ '/assets/images/best-friends.jpg' | assetUrl }}" alt="Two teenage girls sitting close together smiling happily" width="360" class="centered"><br> </center>
 
 <blockquote>
 
 # Best Friends Forever!  
 
-<center><audio controls><source src="/assets/audio/bff1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+<center><audio controls><source src="{{ '/assets/audio/bff1.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sammy-Jo and Chelsea are best friends. They spend a lot of time together. They are in the same class at school, and they live on the same street. At school, they sit beside each other, but sometimes they talk. Their teacher, Miss Smithson, does not like this. She always tells them to stop talking, but they never listen. Happily, they love school and work hard. They help each other. Sometimes, they do their homework together. Usually, Sammy-Jo goes to Chelsea’s house because Chelsea has no brothers or sisters. Sammy-Jo has two sisters and a brother, and they have to share computers.
-<br><br><center><audio controls><source src="/assets/audio/bff2.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+<br><br><center><audio controls><source src="{{ '/assets/audio/bff2.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When they are not together, they talk on their phones or message each other. On Saturdays, they usually go into town. They meet at the end of their street and walk to town. If it rains, they take the bus. In the morning, they look at the shops and do a bit of shopping. In the afternoon, sometimes they go to the cinema or just chill in the park beside the church.  </br></br><center><audio controls><source src="/assets/audio/bff3.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When they are not together, they talk on their phones or message each other. On Saturdays, they usually go into town. They meet at the end of their street and walk to town. If it rains, they take the bus. In the morning, they look at the shops and do a bit of shopping. In the afternoon, sometimes they go to the cinema or just chill in the park beside the church.  </br></br><center><audio controls><source src="{{ '/assets/audio/bff3.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They see each other on Sundays, and they may watch a film together in Chelsea’s bedroom or play computer games. They dress the same: they both like jeans and T-shirts or jumpers. Sometimes they swap clothes. They like the same food. Pizza is their favorite dish. They have one difference: Chelsea loves dogs, but Sammy-Jo loves cats. They are very good besties, and they never argue.  
@@ -24,7 +24,7 @@ date: 2024-09-17
 
 
 <blockquote>  
-<center><audio controls><source src="/assets/audio/bff4.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center>
+<center><audio controls><source src="{{ '/assets/audio/bff4.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center>
 
 ## Answer True or False:  
 
@@ -52,7 +52,7 @@ date: 2024-09-17
 8. They always do their homework together.   
 
 9. Chelsea is an only child.
-</br><center><audio controls><source src="/assets/audio/bff5.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+</br><center><audio controls><source src="{{ '/assets/audio/bff5.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 10. Sammy-Jo has two sisters and a brother.  
 
 
@@ -79,7 +79,7 @@ date: 2024-09-17
 
 18. They never argue.  
 
-<center><audio controls><source src="/assets/audio/bff6.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+<center><audio controls><source src="{{ '/assets/audio/bff6.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 
 ## Answer these questions.
 

@@ -7,9 +7,9 @@ description: This article explores the HEXACO model of personality traits.
 
 # Beyond the Big Five: Exploring the HEXACO Model  
 
-<img src="/assets/images/hexaco.jpg" alt="A young woman wearing glassed smiling broadly" width="400" class="centered" >
+<img src="{{ '/assets/images/hexaco.jpg' | assetUrl }}" alt="A young woman wearing glassed smiling broadly" width="400" class="centered" >
 <br>
-<center><audio controls><source src="/assets/audio/hexeco.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></br></br></center>
+<center><audio controls><source src="{{ '/assets/audio/hexeco.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></br></br></center>
 
 ### A Fresh Perspective on Human Behavior  
 > The HEXACO model of personality traits has been gaining attention in psychological research, offering a fresh perspective on how we understand human behavior. Developed as an alternative to the Big Five personality model, HEXACO adds a new dimension to our understanding of personality traits by reimagining what it means to be human in the context of our emotions, honesty, and social interactions.
@@ -42,7 +42,7 @@ description: This article explores the HEXACO model of personality traits.
 
 
 <div class="grid">
-  <img src="/assets/images/Synchronicity.jpg" alt="Description 1">
-  <img src="/assets/images/language.jpg" alt="Description 2">
-  <img src="/assets/images/a-loving-couple.jpg" alt="Description 3">
+  <img src="{{ '/assets/images/Synchronicity.jpg' | assetUrl }}" alt="Description 1">
+  <img src="{{ '/assets/images/language.jpg' | assetUrl }}" alt="Description 2">
+  <img src="{{ '/assets/images/a-loving-couple.jpg' | assetUrl }}" alt="Description 3">
 </div>

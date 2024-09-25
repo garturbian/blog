@@ -4,7 +4,7 @@ title: "Become a Master of Relationships"
 date: 2024-09-10
 ---
 
-   <img src="/assets/images/a-loving-couple2.jpg" alt="a young couple are lovingly gazing into each others eyes." width="400" class="centered">
+   <img src="{{ '/assets/images/a-loving-couple2.jpg' | assetUrl }}" alt="a young couple are lovingly gazing into each others eyes." width="400" class="centered">
 
   <center><audio controls><source src="/assets/audio/master-relationships.mp3"/>" type="audio/mpeg">Your browser does not support the audio element.</audio></br></br></center>
 

@@ -11,11 +11,11 @@ tags:
 
 <center>
 <audio controls>
-<source src="/assets/audio/synchronicity.mp3" type="audio/mpeg">
+<source src="{{ '/assets/audio/synchronicity.mp3' | assetUrl }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio></center><br>
 
-<img src="/assets/images/synchronicity.jpg" alt="Description of image" width="400">  
+<img src="{{ '/assets/images/synchronicity.jpg' | assetUrl }}" alt="Description of image" width="400">  
 
  
 ## The mysterious dance of coincidence:

@@ -14,7 +14,7 @@ title: Home
 
 ## A Spartan’s Guide to Life
 <br>
-<audio controls><source src="/assets/audio/wellcome-garturian.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+<audio controls><source src="{{ '/assets/audio/wellcome-garturian.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In a world that often feels like a battleground, we need the mental strength and strategic insight of ancient warriors. The Garturian offers the intellectual tools to tackle today’s complexities.
 

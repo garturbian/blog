@@ -4,9 +4,9 @@ title: "The Dark Side of Big Pharma"
 date: 2024-09-15
 ---
 
-<img src="/assets/images/big-pharma2.jpg" alt="Three people seated at a table or desk, with a large white banner behind them that reads 'PROFITS OVER HEALTH' in bold black letters. The central figure is a man in glasses wearing a suit and tie, flanked by two women also in business attire. The setting seems to be an office or conference room, with overhead lighting and lamps visible. The scene has a serious, somewhat ominous tone, likely critiquing prioritization of financial gain over public health concerns." width="400" class="centered"><br>
+<img src="{{ '/assets/images/big-pharma2.jpg' | assetUrl }}" alt="Three people seated at a table or desk, with a large white banner behind them that reads 'PROFITS OVER HEALTH' in bold black letters. The central figure is a man in glasses wearing a suit and tie, flanked by two women also in business attire. The setting seems to be an office or conference room, with overhead lighting and lamps visible. The scene has a serious, somewhat ominous tone, likely critiquing prioritization of financial gain over public health concerns." width="400" class="centered"><br>
 
-<center><audio controls><source src="/assets/audio/dark-pharma.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
+<center><audio controls><source src="{{ '/assets/audio/dark-pharma.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio></center></br>
 
 # The Dark Side of Big Pharma:
 
