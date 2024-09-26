@@ -5,7 +5,9 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "buildd": "powershell -Command \"$env:NODE_ENV='development'; npx eleventy --serve\"",
+    "buildp": "powershell -Command \"$env:NODE_ENV='production'; npx @11ty/eleventy\""
   },
   "keywords": [],
   "author": "",
