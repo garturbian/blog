@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: The Hidden Poison in Our Food
+date: 2024-09-27
+---
+
+<center><img src=" {{ '/assets/images/junk-food.jpg' | assetUrl }} " alt="example image of junk food" width="360" class="centered"><br> </center>
+
+<center>
+<audio controls><source src="{{ '/assets/audio/hidden-poison.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio>
+</br></br></center>
+
+## The Hidden Poison in Our Food
+###### By The Garturian
+<blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At The Garturian, we believe that life is a battlefield, and only those equipped with mental strength and strategic insight can truly thrive. In a world full of hidden threats and government-backed poisons, we must stand firm. The real adversary isn’t always obvious, but it’s crucial to recognize that sometimes, the government itself can act against our best interests. It’s time to face reality and protect our health as we would defend our lives on the battlefield.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every day, Americans innocently put harmful substances into their bodies—worse yet, they unknowingly feed these toxins to their children. It’s no coincidence that Americans have a lower life expectancy than people in countries like Canada, Germany, Japan, and Australia. This wasn’t always the case. Until the early 1990s, the U.S. had similar or better life expectancy compared to other developed nations. But something changed. Chronic diseases like obesity, cancer, diabetes, Alzheimer’s, and heart disease began to soar. Our maternal and infant mortality rates skyrocketed, leaving the U.S. with some of the worst health statistics in the developed world.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How did we get here? One major factor is our diet. Restaurants serving contaminated food are fined or shut down, but when the government approves harmful additives in our food, a few people get rich, and the toxins wind up in nearly every supermarket aisle. Our health is sacrificed for profit.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take, for example, the common food dye Tartrazine, or Yellow 5\. This toxic ingredient can be found in many everyday snacks like Doritos, Cap’n Crunch, gummy bears, and even so-called “healthy” foods like sports drinks, chicken broth, and yogurt. Most people are unaware that Yellow 5 was originally made from the sludge left over when coal is turned into coke, a fuel for blast furnaces. It’s called coal tar, and it’s one of the most toxic substances on Earth. In the past, it was simply an industrial byproduct, a problem for manufacturers to dispose of. But then, a British chemist discovered that coal tar could be turned into fabric dye—and soon after, into food dye.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food manufacturers began using Yellow 5 to disguise the discoloration of low-quality foods, passing them off as appealing to unsuspecting consumers. What they didn’t know at the time was that this dye causes tumors, asthma, developmental delays, neurological damage, and hormone disruption. It’s even linked to anxiety, depression, and ADD/ADHD in children.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dangers of Yellow 5 are well-known today, and many countries have restricted its use. In some places, products containing the dye carry a warning label about its potential to cause hyperactivity in children. Yet here in the United States, it’s still in our food. And despite the fact that it’s no longer made from coal tar but from petroleum, it’s still poison. And it doesn’t even improve the taste.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The worst part? Yellow 5 isn’t just found in junk food. It’s hiding in foods many parents consider healthy: popcorn, mac and cheese, fruit snacks, Gatorade, and even chicken broth. So while we think we’re nourishing our children, we may actually be feeding them toxins that could impact their development and well-being.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At *The Garturian*, we don’t accept the status quo. Chronic illness should not be normalized. We must remain vigilant, like the Spartan warriors of old, and challenge the systems that put profit above human health. If we removed harmful chemicals like Yellow 5 from our food supply, Americans would see immediate improvements in health: fewer sick days, better focus, less anxiety, more energy, fewer tumors, and longer lives.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But Yellow 5 is just one of over a hundred toxic chemicals approved for use in our food. Additives like Red 40, BHA, BHT, and potassium bromate lurk in the products we consume daily, each carrying its own set of health risks. And the effects of these chemicals in combination have never been thoroughly studied. It’s time to question the safety of what we’re consuming and to demand change.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the past two decades, there have been small steps forward—some harmful additives have been banned. But progress is slow, and the health of our nation remains at risk.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here at *The Garturian*, we believe that to survive and thrive in today’s world, we must build the mental toughness and resilience to fight these hidden battles. We must use critical thinking and emotional intelligence to question the narratives we’re fed. And most importantly, we must take practical action to overcome these obstacles—just as the Spartans would.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now is the time to arm yourself with knowledge. Become the Spartan of your own life and fight back against the hidden poisons in our food supply. Start by checking the labels on the food in your pantry and rejecting products that contain harmful chemicals. Together, we can reclaim our health and our strength.
+
+</blockquote>

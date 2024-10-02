@@ -3,8 +3,10 @@ layout: post.njk
 title: 'The Benefits of 4-7-8 Breathing'
 description: 'The 4-7-8 breathing technique is a simple and effective way to reduce stress and anxiety and to improve sleep and concentration.'
 date: 2023-02-23
----
+Here's your text with proper punctuation and capitalization:
 
+---
+<!--  -->
 <img src="{{ '/assets/images/breathing.jpg' | assetUrl }}" alt="image of an attractive young woman sitting outside in the hatha yoga lotus posture" width="400" class="centered">
 </br>
 <center>

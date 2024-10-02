@@ -8,9 +8,6 @@ date: 2024-09-16
 
 <center>
 <audio controls><source src="{{ '/assets/audio/spartan-habits.mp3' | assetUrl }}" type="audio/mpeg">Your browser does not support the audio element.</audio>
-
-               
-
 </br></br></center>
 
 ## Building Spartan Discipline with Small Habits
